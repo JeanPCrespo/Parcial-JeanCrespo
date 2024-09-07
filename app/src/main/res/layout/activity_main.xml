@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#00dac5">
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi login"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="105dp"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:id="@+id/TituloUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/Usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digita tu usuario"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/TituloContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/Contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digita tu contraseña"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/BotonLogin"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FF0000"
+        android:text="Ingresar"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

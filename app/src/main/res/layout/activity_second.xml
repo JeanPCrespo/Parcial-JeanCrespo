@@ -1,0 +1,75 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/Nombretitular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"
+        android:text="Jean Crespo"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textSize="15sp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="1.c)" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textSize="15sp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="2.c)" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textSize="15sp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="3.c) " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textSize="15sp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="4.b) " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textSize="15sp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="5.c)" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textSize="15sp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="6.a)" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textSize="15sp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="7.c)" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textSize="15sp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="8.b)" />
+</LinearLayout>
